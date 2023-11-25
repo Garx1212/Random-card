@@ -2,7 +2,7 @@
 import "bootstrap";
 import "./style.css";
 
-window.onload = () ==> {
+window.onload = () => {
  document.querySelector(".card").classList.add(generateRandomSuit());
  document.querySelector(".card").innerHTML = generateRandomNumero();
 };
